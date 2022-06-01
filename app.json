@@ -18,7 +18,13 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.RNShare"
+      "bundleIdentifier": "com.example.RNShare",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "instagram",
+          "instagram-stories"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
